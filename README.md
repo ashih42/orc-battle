@@ -1,5 +1,5 @@
 # orc-battle
-A text-based battle royale game in Common Lisp.
+A text-based battle royale game in Common Lisp, adapted fom [Land of Lisp](http://landoflisp.com/), Chapter 9.
 
 ## Prerequisites
 
