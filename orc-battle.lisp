@@ -50,7 +50,7 @@
 
 (defun show-turn ()
     (fresh-line)
-    (format t "~%")
+    (terpri)
     (princ "[TURN ")
     (princ *turn-id*)
     (princ "]")
@@ -58,7 +58,7 @@
 
 (defun show-player-attack-phase ()
     (fresh-line)
-    (format t "~%")
+    (terpri)
     (princ "[PLAYER ATTACK PHASE ")
     (princ *player-attack-phase-id*)
     (princ "]")
@@ -67,7 +67,7 @@
 (defun show-monster-attack-phase ()
     (setf *player-attack-phase-id* 1)
     (fresh-line)
-    (format t "~%")
+    (terpri)
     (princ "[MONSTER ATTACK PHASE]")
     (fresh-line))
 
