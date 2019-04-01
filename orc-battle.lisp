@@ -274,9 +274,3 @@
               ((= x *player-strength*)
                     (princ "A BRIGAND cuts your arm with his whip, taking off 2 strength points! ")
                     (decf *player-strength* 2)))))
-
-;;; Compile with SBCL
-;;; sbcl --script orc-battle.lisp
-(sb-ext:save-lisp-and-die "orc-battle"
-    :toplevel #'orc-battle
-    :executable t)

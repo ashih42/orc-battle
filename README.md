@@ -10,7 +10,7 @@ You have `sbcl` installed.
 ## Compiling
 
 ```
-sbcl --script orc-battle.lisp
+sbcl --script main.lisp
 ```
 
 ## Running
